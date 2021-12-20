@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.authenticatePassengerController">
+   <center>
+      <BorderPane prefHeight="583.0" prefWidth="460.0" BorderPane.alignment="CENTER">
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00c2ff" height="99.0" stroke="#11a4cd" strokeType="INSIDE" strokeWidth="2.0" width="644.0" />
+                  <Label layoutX="13.0" layoutY="-6.0" prefHeight="97.0" prefWidth="49.0" text="M" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="82.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="47.0" layoutY="73.0" text="Metro Train" textFill="WHITE" />
+                  <Label layoutX="378.0" layoutY="29.0" prefHeight="53.0" prefWidth="263.0" text="Easy and Safe" textFill="#fffefe">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="32.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00c2ff" height="92.0" layoutX="-4.0" layoutY="611.0" stroke="#11a4cd" strokeType="INSIDE" strokeWidth="2.0" width="648.0" />
+                  <Label layoutX="20.0" layoutY="591.0" prefHeight="119.0" prefWidth="18.0" text="M" textFill="#fffdfd">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="96.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="95.0" layoutY="660.0" text="Metro Train" textFill="WHITE">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+                  <Hyperlink layoutX="268.0" layoutY="616.0" text="Contact Us" textFill="#fcfcfc">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Hyperlink>
+                  <Hyperlink layoutX="408.0" layoutY="616.0" text="Help" textFill="#fcfcfc">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Hyperlink>
+                  <Hyperlink layoutX="528.0" layoutY="616.0" text="About Us" textFill="#fcfcfc">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Hyperlink>
+                  <Hyperlink layoutX="288.0" layoutY="644.0" text="FAQs" textFill="#fcfcfc">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Hyperlink>
+                  <ImageView fitHeight="131.0" fitWidth="144.0" layoutX="496.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/AP_SDA_FP_Pictures/icon_admin.png" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="backToMainMenu" layoutX="25.0" layoutY="567.0" mnemonicParsing="false" onAction="#backToMainMenuButton" prefHeight="32.0" prefWidth="140.0" style="-fx-background-color: #11a4cd;" text="Back To Main Menu" textFill="WHITE" />
+                  <Label layoutX="64.0" layoutY="137.0" text="Instructions">
+                     <font>
+                        <Font name="System Bold Italic" size="15.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff1c" height="177.0" layoutX="123.0" layoutY="298.0" stroke="#11a4cd" strokeType="INSIDE" width="395.0" />
+                  <Button fx:id="cancel" layoutX="153.0" layoutY="411.0" mnemonicParsing="false" onAction="#cancelButton" prefHeight="31.0" prefWidth="339.0" style="-fx-background-color: #11a4cd;" text="Authenticate" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="64.0" layoutY="173.0" text="Enter  your Ticket Number to authenticate it. ">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="153.0" layoutY="342.0" prefHeight="26.0" prefWidth="161.0" text="Ticket Number:">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="TNo" layoutX="298.0" layoutY="343.0" prefHeight="25.0" prefWidth="192.0" promptText="Enter Ticket Number (TN-xx)" />
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </center>
+</BorderPane>

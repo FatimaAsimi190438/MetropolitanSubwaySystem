@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="647.0" prefWidth="643.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainPageController">
+   <top>
+      <BorderPane prefHeight="400.0" prefWidth="633.0" BorderPane.alignment="CENTER">
+         <bottom>
+            <AnchorPane prefHeight="657.0" prefWidth="643.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00c2ff" height="99.0" layoutY="-5.0" stroke="#11a4cd" strokeType="INSIDE" strokeWidth="2.0" width="643.0" />
+                  <Label layoutX="47.0" layoutY="73.0" text="Metro Train" textFill="WHITE" />
+                  <Label layoutX="13.0" layoutY="-6.0" prefHeight="97.0" prefWidth="49.0" text="M" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="82.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00c2ff" height="85.0" layoutX="-4.0" layoutY="611.0" stroke="#11a4cd" strokeType="INSIDE" strokeWidth="2.0" width="647.0" />
+                  <Label layoutX="20.0" layoutY="591.0" prefHeight="119.0" prefWidth="18.0" text="M" textFill="#fffdfd">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="96.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="95.0" layoutY="660.0" text="Metro Train" textFill="WHITE">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+                  <Hyperlink fx:id="AboutUS" layoutX="528.0" layoutY="616.0" onAction="#aboutUS" text="About Us" textFill="#fcfcfc">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Hyperlink>
+                  <Hyperlink fx:id="help" layoutX="408.0" layoutY="616.0" onAction="#Help" text="Help" textFill="#fcfcfc">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Hyperlink>
+                  <Hyperlink fx:id="faqs" layoutX="288.0" layoutY="644.0" onAction="#FAQs" text="FAQs" textFill="#fcfcfc">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Hyperlink>
+                  <Hyperlink fx:id="contactus" layoutX="268.0" layoutY="616.0" onAction="#contactUS" text="Contact Us" textFill="#fcfcfc">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Hyperlink>
+                  <Label layoutX="378.0" layoutY="29.0" prefHeight="53.0" prefWidth="263.0" text="Easy and Safe" textFill="#fffefe">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="32.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="84.0" fitWidth="19.0" layoutX="442.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label layoutX="185.0" layoutY="354.0" text="Name:">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Label>
+                  <Label layoutX="190.0" layoutY="394.0" prefHeight="21.0" prefWidth="31.0" text="Age:">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Label>
+                  <Label layoutX="160.0" layoutY="433.0" text="Contact Number:">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Label>
+                  <Label layoutX="181.0" layoutY="466.0" text="Gender:">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Label>
+                  <TextField fx:id="name" layoutX="316.0" layoutY="351.0" promptText="Enter name" />
+                  <TextField fx:id="age" layoutX="316.0" layoutY="392.0" promptText="Enter age" />
+                  <TextField fx:id="contactno" layoutX="316.0" layoutY="429.0" promptText="8-digits" />
+                  <Label layoutX="267.0" layoutY="544.0" prefHeight="16.0" prefWidth="99.0" text="Already a Member?">
+                     <font>
+                        <Font name="System Italic" size="11.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="register" layoutX="267.0" layoutY="505.0" mnemonicParsing="false" onAction="#registerButton" prefHeight="30.0" prefWidth="145.0" style="-fx-background-color: #11a4cd;" text="Register" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font></Button>
+                  <Button fx:id="login" layoutX="371.0" layoutY="541.0" mnemonicParsing="false" onAction="#loginButton" text="Login">
+                     <font>
+                        <Font size="10.0" />
+                     </font></Button>
+                  <Button fx:id="guest" layoutX="510.0" layoutY="572.0" mnemonicParsing="false" onAction="#guestButton" prefHeight="28.0" prefWidth="114.0" style="-fx-background-color: #11a4cd;" text="Continue As Guest" textFill="WHITE" />
+                  <ImageView fitHeight="198.0" fitWidth="362.0" layoutX="160.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/AP_SDA_FP_Pictures/subway-train-station-with-floor-stop-sign-chairs-recycle-trash-broom-big-clock-tv-time_82689-95.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="admin" layoutX="18.0" layoutY="572.0" mnemonicParsing="false" onAction="#AdminLogin" prefHeight="28.0" prefWidth="120.0" style="-fx-background-color: #11a4cd;" text="Continue as Admin" textFill="WHITE" />
+                  <Label layoutX="310.0" layoutY="319.0" text="Details">
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="genderr" layoutX="316.0" layoutY="464.0" promptText="Enter gender" />
+                  <Button fx:id="Store" layoutX="296.0" layoutY="574.0" mnemonicParsing="false" onAction="#StoreBTn" prefHeight="25.0" prefWidth="79.0" text="Store" />
+               </children>
+            </AnchorPane>
+         </bottom>
+      </BorderPane>
+   </top>
+</BorderPane>

@@ -1,0 +1,97 @@
+
+Tickets Details 
+User ID             : US1
+TicketNo             : TN-1
+Fare             : 100.0
+Origin           : Saddar
+Destination              : Katchery
+Tickets Details 
+User ID             : US6
+TicketNo             : TN-11
+Fare             : 100.0
+Origin           : Saddar
+Destination              : Shamsabad
+Tickets Details 
+User ID             : US7
+TicketNo             : TN-12
+Fare             : 100.0
+Origin           : Saddar
+Destination              : Chandi Chowk 
+Tickets Details 
+User ID             : US7
+TicketNo             : TN-13
+Fare             : 100.0
+Origin           : Saddar
+Destination              : Chandi Chowk 
+Tickets Details 
+User ID             : US8
+TicketNo             : TN-15
+Fare             : 100.0
+Origin           : Chandi Chowk 
+Destination              : 6th Road
+Tickets Details 
+User ID             : US8
+TicketNo             : TN-16
+Fare             : 100.0
+Origin           : Chandi Chowk 
+Destination              : 6th Road
+Tickets Details 
+User ID             : m04Abeeha
+TicketNo             : TN-18
+Fare             : 100.0
+Origin           : 6th Road
+Destination              : Faizabad
+Tickets Details 
+User ID             : m04Abeeha
+TicketNo             : TN-19
+Fare             : 100.0
+Origin           : 6th Road
+Destination              : Faizabad
+Tickets Details 
+User ID             : US1
+TicketNo             : TN-2
+Fare             : 100.0
+Origin           : Saddar
+Destination              : Katchery
+Tickets Details 
+User ID             : m04Abeeha
+TicketNo             : TN-20
+Fare             : 100.0
+Origin           : 6th Road
+Destination              : Faizabad
+Tickets Details 
+User ID             : m01Ali
+TicketNo             : TN-22
+Fare             : 100.0
+Origin           : Rehmanabad 
+Destination              : Shamsabad
+Tickets Details 
+User ID             : m04Abeeha
+TicketNo             : TN-24
+Fare             : 100.0
+Origin           : Shamsabad
+Destination              : Parade Ground
+Tickets Details 
+User ID             : US2
+TicketNo             : TN-3
+Fare             : 100.0
+Origin           : IJP
+Destination              : Shamsabad
+Tickets Details 
+User ID             : US4
+TicketNo             : TN-5
+Fare             : 100.0
+Origin           : Waris Khan
+Destination              : Saddar
+Tickets Details 
+User ID             : US5
+TicketNo             : TN-7
+Fare             : 100.0
+Origin           : Faizabad
+Destination              : Parade Ground
+Tickets Details 
+User ID             : m05Anum
+TicketNo             : TN-9
+Fare             : 100.0
+Origin           : Waris Khan
+Destination              : Saddar

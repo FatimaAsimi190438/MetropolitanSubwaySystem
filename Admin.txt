@@ -1,0 +1,13 @@
+
+Admin Details
+Name             : Adeeba Khan
+Gender           : Female
+Age              : 20
+LoginID          : 1234
+Password  : adeeba1234
+Admin Details
+Name             : Fatima Asim
+Gender           : Female
+Age              : 21
+LoginID          : 5678
+Password  : fatima5678

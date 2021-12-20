@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.checkUsersController">
+   <center>
+      <BorderPane prefHeight="583.0" prefWidth="460.0" BorderPane.alignment="CENTER">
+         <top>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00c2ff" height="99.0" stroke="#11a4cd" strokeType="INSIDE" strokeWidth="2.0" width="644.0" />
+                  <Label layoutX="13.0" layoutY="-6.0" prefHeight="97.0" prefWidth="49.0" text="M" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="82.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="47.0" layoutY="73.0" text="Metro Train" textFill="WHITE" />
+                  <Label layoutX="378.0" layoutY="29.0" prefHeight="53.0" prefWidth="263.0" text="Easy and Safe" textFill="#fffefe">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="32.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00c2ff" height="92.0" layoutX="-4.0" layoutY="611.0" stroke="#11a4cd" strokeType="INSIDE" strokeWidth="2.0" width="648.0" />
+                  <Label layoutX="20.0" layoutY="591.0" prefHeight="119.0" prefWidth="18.0" text="M" textFill="#fffdfd">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="96.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="95.0" layoutY="660.0" text="Metro Train" textFill="WHITE">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+                  <Hyperlink layoutX="268.0" layoutY="616.0" text="Contact Us" textFill="#fcfcfc">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Hyperlink>
+                  <Hyperlink layoutX="408.0" layoutY="616.0" text="Help" textFill="#fcfcfc">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Hyperlink>
+                  <Hyperlink layoutX="528.0" layoutY="616.0" text="About Us" textFill="#fcfcfc">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Hyperlink>
+                  <Hyperlink layoutX="288.0" layoutY="644.0" text="FAQs" textFill="#fcfcfc">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Hyperlink>
+                  <Label layoutX="429.0" layoutY="121.0" text="Station Head">
+                     <font>
+                        <Font name="System Bold Italic" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="StnameLabel" layoutX="537.0" layoutY="121.0" text="Label">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="logout" layoutX="475.0" layoutY="557.0" mnemonicParsing="false" onAction="#logout" prefHeight="42.0" prefWidth="140.0" style="-fx-background-color: #11a4cd;" text="LOGOUT" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <TableView fx:id="UserTable" layoutX="20.0" layoutY="195.0" prefHeight="290.0" prefWidth="605.0">
+                    <columns>
+                      <TableColumn fx:id="col_ID" prefWidth="75.0" text="User_ID" />
+                      <TableColumn fx:id="col_n" prefWidth="119.0" text="Name" />
+                        <TableColumn fx:id="col_age" prefWidth="49.0" text="Age" />
+                        <TableColumn fx:id="col_cno" prefWidth="122.0" text="Contact" />
+                        <TableColumn fx:id="col_gender" prefWidth="64.0" text="Gender" />
+                        <TableColumn fx:id="col_TB" prefWidth="94.0" text="Ticket Bought" />
+                        <TableColumn fx:id="col_amount" prefWidth="81.0" text="Amount (Rs.)" />
+                    </columns>
+                  </TableView>
+                  <Button fx:id="Back_To_mainpage1" layoutX="25.0" layoutY="557.0" mnemonicParsing="false" onAction="#Back_To_main" prefHeight="42.0" prefWidth="140.0" style="-fx-background-color: #11a4cd;" text="BACK TO MENU" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </top>
+      </BorderPane>
+   </center>
+</BorderPane>
